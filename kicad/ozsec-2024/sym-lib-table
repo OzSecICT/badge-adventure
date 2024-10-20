@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ozsec-custom")(type "KiCad")(uri "${KIPRJMOD}/ozsec-custom.kicad_sym")(options "")(descr ""))
+)

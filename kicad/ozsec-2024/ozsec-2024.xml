@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Code\OzSecICT\badge-2024\kicad\ozsec-2024\ozsec-2024.kicad_sch</source>
+    <date>2024-04-11T13:16:05-0500</date>
+    <tool>Eeschema 8.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Adventure Badge</title>
+        <company>OzSec 2024</company>
+        <rev>v1.0</rev>
+        <date>2024-02-20</date>
+        <source>ozsec-2024.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BOOT1">
+      <value>~</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A</footprint>
+      <description>SMD Button</description>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="Link">https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD Button</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dd1f0c6-62eb-45bd-bbe4-43b8531ea49e</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>ozsec-custom:MY-AA-04</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203021630_MYOUNG-MY-AA-04_C2979179.pdf</datasheet>
+      <description>SMD Battery clips for AA battery.</description>
+      <fields>
+        <field name="LCSC">C2979179</field>
+        <field name="Link">https://jlcpcb.com/partdetail/Myoung-MY_AA04/C2979179</field>
+        <field name="Footprint">ozsec-custom:MY-AA-04</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203021630_MYOUNG-MY-AA-04_C2979179.pdf</field>
+        <field name="Description">SMD Battery clips for AA battery.</field>
+      </fields>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="LCSC" value="C2979179"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/Myoung-MY_AA04/C2979179"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="batt voltage-source cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41d987fc-a2bc-4e76-8376-493292d81643</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <description>Capacitor SMD</description>
+      <fields>
+        <field name="LCSC">C1525</field>
+        <field name="Link">https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</field>
+        <field name="Description">Capacitor SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f990b424-f5c6-4e06-b717-8d025f7160b1</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A107MQHNNNE_C15008.pdf</datasheet>
+      <description>Capacitor SMD</description>
+      <fields>
+        <field name="LCSC">C15008</field>
+        <field name="Link">https://jlcpcb.com/partdetail/15681-CL31A107MQHNNNE/C15008</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A107MQHNNNE_C15008.pdf</field>
+        <field name="Description">Capacitor SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15008"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/15681-CL31A107MQHNNNE/C15008"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bb27036-647e-436a-8f78-fcdc2b8ec87b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf</datasheet>
+      <description>Capacitor SMD</description>
+      <fields>
+        <field name="LCSC">C52923</field>
+        <field name="Link">https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf</field>
+        <field name="Description">Capacitor SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43be9844-7a52-4e82-b38f-681f5320ac22</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf</datasheet>
+      <description>Capacitor SMD</description>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Link">https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf</field>
+        <field name="Description">Capacitor SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26b7df47-6c60-452a-8d6b-07ef5db995a2</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf</datasheet>
+      <description>Capacitor SMD</description>
+      <fields>
+        <field name="LCSC">C45783</field>
+        <field name="Link">https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf</field>
+        <field name="Description">Capacitor SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C45783"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0e8127d-4ca3-4e80-b99b-bbe23b620609</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <description>Capacitor SMD</description>
+      <fields>
+        <field name="LCSC">C1525</field>
+        <field name="Link">https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</field>
+        <field name="Description">Capacitor SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6378184c-574d-4528-b3c7-eef335936d25</tstamps>
+    </comp>
+    <comp ref="CHARGING1">
+      <value>~</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206R1_C84270.pdf</datasheet>
+      <description>LED Blue</description>
+      <fields>
+        <field name="LCSC">C84270</field>
+        <field name="Link">https://jlcpcb.com/partdetail/85439-NCD1206R1/C84270</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206R1_C84270.pdf</field>
+        <field name="Description">LED Blue</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C84270"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/85439-NCD1206R1/C84270"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a90ec646-2df0-4cc8-b524-c20d2fe0dddc</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</datasheet>
+      <description>LED</description>
+      <fields>
+        <field name="LCSC">C130718</field>
+        <field name="Link">https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</field>
+        <field name="Description">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C130718"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>106b0c9f-1d90-493a-b7c2-e16eb4ca9eba</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</datasheet>
+      <description>LED</description>
+      <fields>
+        <field name="LCSC">C130718</field>
+        <field name="Link">https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</field>
+        <field name="Description">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C130718"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e141801f-0bb1-4746-8cfc-048a3b9987e8</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</datasheet>
+      <description>LED</description>
+      <fields>
+        <field name="LCSC">C130718</field>
+        <field name="Link">https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</field>
+        <field name="Description">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C130718"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fa319c8-0c88-4a5f-9fe8-08961000044f</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</datasheet>
+      <description>LED</description>
+      <fields>
+        <field name="LCSC">C130718</field>
+        <field name="Link">https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</field>
+        <field name="Description">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C130718"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e40c5ab-2e71-4247-a088-f596e798b17a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</datasheet>
+      <description>LED</description>
+      <fields>
+        <field name="LCSC">C130718</field>
+        <field name="Link">https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</field>
+        <field name="Description">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C130718"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52f963e8-66b4-43b7-9812-111528e2057a</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</datasheet>
+      <description>LED</description>
+      <fields>
+        <field name="LCSC">C130718</field>
+        <field name="Link">https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</field>
+        <field name="Description">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C130718"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d732579d-d071-40fc-bcac-2454361ed1e9</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</datasheet>
+      <description>LED</description>
+      <fields>
+        <field name="LCSC">C130718</field>
+        <field name="Link">https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</field>
+        <field name="Description">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C130718"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a970665-a4f4-4432-8774-28b80d428ca6</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</datasheet>
+      <description>LED</description>
+      <fields>
+        <field name="LCSC">C130718</field>
+        <field name="Link">https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206W1_C130718.pdf</field>
+        <field name="Description">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C130718"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/142007-NCD1206W1/C130718"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccd5dbcb-f3b7-45f4-addf-f9c2ce01c956</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402181506_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.pdf</datasheet>
+      <description>NeoPixel RGB LED</description>
+      <fields>
+        <field name="LCSC">C2843785</field>
+        <field name="Link">https://jlcpcb.com/partdetail/Xinglight-XL_5050RGBCWS2812B/C2843785</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402181506_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.pdf</field>
+        <field name="Description">NeoPixel RGB LED</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C2843785"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/Xinglight-XL_5050RGBCWS2812B/C2843785"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <property name="ki_fp_filters" value="LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51bad640-8ae0-47bd-b022-ae45ec572837</tstamps>
+    </comp>
+    <comp ref="DOWN1">
+      <value>~</value>
+      <footprint>ozsec-custom:SW_SMD_TSC015XXXXXXX</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108261830_BZCN-TSC015A03526A_C2888900.pdf</datasheet>
+      <description>SMD Button</description>
+      <fields>
+        <field name="LCSC">C2888900</field>
+        <field name="Link">https://jlcpcb.com/partdetail/Bzcn-TSC015A03526A/C2888900</field>
+        <field name="Footprint">ozsec-custom:SW_SMD_TSC015XXXXXXX</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108261830_BZCN-TSC015A03526A_C2888900.pdf</field>
+        <field name="Description">SMD Button</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="LCSC" value="C2888900"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/Bzcn-TSC015A03526A/C2888900"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <property name="ki_fp_filters" value="SW*MEC*5G*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55e515bf-f3c3-4781-a673-3dc63539288b</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810101859_TLC-Electronic-TLC-NSMD200_C261957.pdf</datasheet>
+      <description>Fuse</description>
+      <fields>
+        <field name="LCSC">C261957</field>
+        <field name="Link">https://jlcpcb.com/partdetail/TlcElectronic-TLCNSMD200/C261957</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810101859_TLC-Electronic-TLC-NSMD200_C261957.pdf</field>
+        <field name="Description">Fuse</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="LCSC" value="C261957"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/TlcElectronic-TLCNSMD200/C261957"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53dcb00c-4408-4798-b5ed-92a5bca60895</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303271630_G-Switch-GT-USB-7010ASV_C2988369.pdf</datasheet>
+      <description>USB Type-C connector</description>
+      <fields>
+        <field name="LCSC">C2988369</field>
+        <field name="Link">https://jlcpcb.com/partdetail/gswitch-GT_USB7010ASV/C2988369</field>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303271630_G-Switch-GT-USB-7010ASV_C2988369.pdf</field>
+        <field name="Description">USB Type-C connector</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="LCSC" value="C2988369"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/gswitch-GT_USB7010ASV/C2988369"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e73c43c-714e-410f-8b84-4c340d0b48eb</tstamps>
+    </comp>
+    <comp ref="LEFT1">
+      <value>~</value>
+      <footprint>ozsec-custom:SW_SMD_TSC015XXXXXXX</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108261830_BZCN-TSC015A03526A_C2888900.pdf</datasheet>
+      <description>SMD Button</description>
+      <fields>
+        <field name="LCSC">C2888900</field>
+        <field name="Link">https://jlcpcb.com/partdetail/Bzcn-TSC015A03526A/C2888900</field>
+        <field name="Footprint">ozsec-custom:SW_SMD_TSC015XXXXXXX</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108261830_BZCN-TSC015A03526A_C2888900.pdf</field>
+        <field name="Description">SMD Button</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="LCSC" value="C2888900"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/Bzcn-TSC015A03526A/C2888900"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <property name="ki_fp_filters" value="SW*MEC*5G*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a7d6927-f18e-441c-bae3-e89fc8348919</tstamps>
+    </comp>
+    <comp ref="POWER1">
+      <value>~</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_PCM12</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_SHOU-HAN-MSK12C02-HB_C431541.pdf</datasheet>
+      <description>Power switch</description>
+      <fields>
+        <field name="LCSC">C431541</field>
+        <field name="Link">https://jlcpcb.com/partdetail/ShouHan-MSK12C02HB/C431541</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPDT_PCM12</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_SHOU-HAN-MSK12C02-HB_C431541.pdf</field>
+        <field name="Description">Power switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="LCSC" value="C431541"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/ShouHan-MSK12C02HB/C431541"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34aaedd5-cbe1-449f-9bb5-e3dc5232d596</tstamps>
+    </comp>
+    <comp ref="POWER2">
+      <value>~</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206C1_C84273.pdf</datasheet>
+      <description>LED Green</description>
+      <fields>
+        <field name="LCSC">C84273</field>
+        <field name="Link">https://jlcpcb.com/partdetail/85442-NCD1206C1/C84273</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD1206C1_C84273.pdf</field>
+        <field name="Description">LED Green</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C84273"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/85442-NCD1206C1/C84273"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53d508bb-1e7c-4eb5-bd63-29f3120e6746</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F2001T5E_C17604.pdf</datasheet>
+      <description>Resistor SMD</description>
+      <fields>
+        <field name="LCSC">C17604</field>
+        <field name="Link">https://jlcpcb.com/partdetail/18292-0805W8F2001T5E/C17604</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F2001T5E_C17604.pdf</field>
+        <field name="Description">Resistor SMD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17604"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/18292-0805W8F2001T5E/C17604"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06d14a8d-89b5-4e2a-8e7e-b9c914fd280b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311800_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <description>Resistor SMD</description>
+      <fields>
+        <field name="LCSC">C17513</field>
+        <field name="Link">https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311800_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</field>
+        <field name="Description">Resistor SMD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c9fe41c-bad3-4819-998d-a6ec193ee346</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311800_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <description>Resistor SMD</description>
+      <fields>
+        <field name="LCSC">C17513</field>
+        <field name="Link">https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311800_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</field>
+        <field name="Description">Resistor SMD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7b84b05-65e0-4bee-bb66-a945e2dec6eb</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010030_UNI-ROYAL-Uniroyal-Elec-0805W8F5101T5E_C27834.pdf</datasheet>
+      <description>Resistor SMD</description>
+      <fields>
+        <field name="LCSC">C27834</field>
+        <field name="Link">https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010030_UNI-ROYAL-Uniroyal-Elec-0805W8F5101T5E_C27834.pdf</field>
+        <field name="Description">Resistor SMD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C27834"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fd5c6db-682a-4065-bedf-92a319867048</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010030_UNI-ROYAL-Uniroyal-Elec-0805W8F5101T5E_C27834.pdf</datasheet>
+      <description>Resistor SMD</description>
+      <fields>
+        <field name="LCSC">C27834</field>
+        <field name="Link">https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010030_UNI-ROYAL-Uniroyal-Elec-0805W8F5101T5E_C27834.pdf</field>
+        <field name="Description">Resistor SMD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C27834"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5801de67-4ffb-4710-89be-25e1c461c196</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <description>Resistor SMD</description>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Link">https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</field>
+        <field name="Description">Resistor SMD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bb94ff3-5934-47b1-a132-3dd02bd7ea7b</tstamps>
+    </comp>
+    <comp ref="RESET1">
+      <value>~</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A</footprint>
+      <description>SMD Button</description>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="Link">https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD Button</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfb7175d-402b-41e2-8bb0-71b7645f3042</tstamps>
+    </comp>
+    <comp ref="RIGHT1">
+      <value>~</value>
+      <footprint>ozsec-custom:SW_SMD_TSC015XXXXXXX</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108261830_BZCN-TSC015A03526A_C2888900.pdf</datasheet>
+      <description>SMD Button</description>
+      <fields>
+        <field name="LCSC">C2888900</field>
+        <field name="Link">https://jlcpcb.com/partdetail/Bzcn-TSC015A03526A/C2888900</field>
+        <field name="Footprint">ozsec-custom:SW_SMD_TSC015XXXXXXX</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108261830_BZCN-TSC015A03526A_C2888900.pdf</field>
+        <field name="Description">SMD Button</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="LCSC" value="C2888900"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/Bzcn-TSC015A03526A/C2888900"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <property name="ki_fp_filters" value="SW*MEC*5G*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdb6ff59-95a0-451b-9b67-08ad6d7aa6a2</tstamps>
+    </comp>
+    <comp ref="RN1">
+      <value>1K Array</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0102T5E_C20197.pdf</datasheet>
+      <description>Resistor Array</description>
+      <fields>
+        <field name="LCSC">C20197</field>
+        <field name="Link">https://jlcpcb.com/partdetail/20907-4D03WGJ0102T5E/C20197</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0603</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0102T5E_C20197.pdf</field>
+        <field name="Description">Resistor Array</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="LCSC" value="C20197"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/20907-4D03WGJ0102T5E/C20197"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="R network parallel topology isolated"/>
+      <property name="ki_fp_filters" value="DIP* SOIC* R*Array*Concave* R*Array*Convex*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7e7ecbb-87f7-4d4f-a62a-e101a67c8ac8</tstamps>
+    </comp>
+    <comp ref="RN2">
+      <value>1K Array</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0102T5E_C20197.pdf</datasheet>
+      <description>Resistor Array</description>
+      <fields>
+        <field name="LCSC">C20197</field>
+        <field name="Link">https://jlcpcb.com/partdetail/20907-4D03WGJ0102T5E/C20197</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0603</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0102T5E_C20197.pdf</field>
+        <field name="Description">Resistor Array</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="LCSC" value="C20197"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/20907-4D03WGJ0102T5E/C20197"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="R network parallel topology isolated"/>
+      <property name="ki_fp_filters" value="DIP* SOIC* R*Array*Concave* R*Array*Convex*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8b87af0-4fc3-46bb-b163-965924a12ccc</tstamps>
+    </comp>
+    <comp ref="SELECT1">
+      <value>~</value>
+      <footprint>ozsec-custom:SW_SMD_TSC015XXXXXXX</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108261830_BZCN-TSC015A03526A_C2888900.pdf</datasheet>
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <fields>
+        <field name="LCSC">C2888900</field>
+        <field name="Link">https://jlcpcb.com/partdetail/Bzcn-TSC015A03526A/C2888900</field>
+        <field name="Footprint">ozsec-custom:SW_SMD_TSC015XXXXXXX</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108261830_BZCN-TSC015A03526A_C2888900.pdf</field>
+        <field name="Description">Single Pole Single Throw (SPST) switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="LCSC" value="C2888900"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/Bzcn-TSC015A03526A/C2888900"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <property name="ki_fp_filters" value="SW*MEC*5G*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b823882d-7eae-4efb-b485-2ab3474a400d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TLV1117-33</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810151741_Texas-Instruments-TLV1117-33IDCYR_C37359.pdf</datasheet>
+      <description>Voltage regulator</description>
+      <fields>
+        <field name="LCSC">C37359</field>
+        <field name="Link">https://jlcpcb.com/partdetail/TexasInstruments-TLV111733IDCYR/C37359</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810151741_Texas-Instruments-TLV1117-33IDCYR_C37359.pdf</field>
+        <field name="Description">Voltage regulator</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV1117-33" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="LCSC" value="C37359"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/TexasInstruments-TLV111733IDCYR/C37359"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <property name="ki_fp_filters" value="SOT?223* TO?263* TO?252* TO?220*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be029b07-6e5e-4d7a-a554-47f878633a40</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ME4054BM5G-N</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401181411_MICRONE-Nanjing-Micro-One-Elec-ME4054BM5G-N_C478383.pdf</datasheet>
+      <description>Battery charge controller</description>
+      <fields>
+        <field name="LCSC">C478383</field>
+        <field name="Link">https://jlcpcb.com/partdetail/485645-ME4054BM5GN/C478383</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-5</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401181411_MICRONE-Nanjing-Micro-One-Elec-ME4054BM5G-N_C478383.pdf</field>
+        <field name="Description">Battery charge controller</field>
+      </fields>
+      <libsource lib="Battery_Management" part="LTC4054ES5-4.2" description="Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celsius, TSOT-23-5"/>
+      <property name="LCSC" value="C478383"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/485645-ME4054BM5GN/C478383"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="Constant-current constant-voltage linear charger single cell lithium-ion battery"/>
+      <property name="ki_fp_filters" value="TSOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35c62124-48a8-486c-b974-614659667fd0</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108132230_TECH-PUBLIC-USBLC6-2SC6_C2827654.pdf</datasheet>
+      <description>ESD protection for USB power and data.</description>
+      <fields>
+        <field name="LCSC">C2827654</field>
+        <field name="Link">https://jlcpcb.com/partdetail/TechPublic-USBLC62SC6/C2827654</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108132230_TECH-PUBLIC-USBLC6-2SC6_C2827654.pdf</field>
+        <field name="Description">ESD protection for USB power and data.</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="LCSC" value="C2827654"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/TechPublic-USBLC62SC6/C2827654"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>757cb83a-15c6-4b8e-8d2b-6c81e2ae88e4</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ESP32-S3-WROOM-1-N8R8</value>
+      <footprint>PCM_Espressif:ESP32-S3-WROOM-1</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401301308_Espressif-Systems-ESP32-S3-WROOM-1-N8R8_C2913201.pdf</datasheet>
+      <description>ESP32-S3-WROOM-1</description>
+      <fields>
+        <field name="LCSC">C2913201</field>
+        <field name="Link">https://jlcpcb.com/partdetail/3198299-ESP32_S3_WROOM_1N8R8/C2913201</field>
+        <field name="Footprint">PCM_Espressif:ESP32-S3-WROOM-1</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401301308_Espressif-Systems-ESP32-S3-WROOM-1-N8R8_C2913201.pdf</field>
+        <field name="Description">ESP32-S3-WROOM-1</field>
+      </fields>
+      <libsource lib="PCM_Espressif" part="ESP32-S3-WROOM-1" description="2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"/>
+      <property name="LCSC" value="C2913201"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/3198299-ESP32_S3_WROOM_1N8R8/C2913201"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14a4afaf-64a1-4c5e-a1de-d4d4aed195ca</tstamps>
+    </comp>
+    <comp ref="UP1">
+      <value>~</value>
+      <footprint>ozsec-custom:SW_SMD_TSC015XXXXXXX</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108261830_BZCN-TSC015A03526A_C2888900.pdf</datasheet>
+      <description>SMD Button</description>
+      <fields>
+        <field name="LCSC">C2888900</field>
+        <field name="Link">https://jlcpcb.com/partdetail/Bzcn-TSC015A03526A/C2888900</field>
+        <field name="Footprint">ozsec-custom:SW_SMD_TSC015XXXXXXX</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108261830_BZCN-TSC015A03526A_C2888900.pdf</field>
+        <field name="Description">SMD Button</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="LCSC" value="C2888900"/>
+      <property name="Link" value="https://jlcpcb.com/partdetail/Bzcn-TSC015A03526A/C2888900"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ozsec-2024.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <property name="ki_fp_filters" value="SW*MEC*5G*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be9510ce-22a5-4110-ab4c-fea54d3260b5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="LTC4054ES5-4.2">
+      <description>Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celsius, TSOT-23-5</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/405442xf.pdf</docs>
+      <footprints>
+        <fp>TSOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC4054ES5-4.2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-5</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/405442xf.pdf</field>
+        <field name="Description">Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celsius, TSOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CHRG}" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="BAT" type="power_out"/>
+        <pin num="4" name="V_{CC}" type="power_in"/>
+        <pin num="5" name="PROG" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Multiple-cell battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack04">
+      <description>4 resistor network, parallel topology</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">4 resistor network, parallel topology</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</field>
+        <field name="Description">RGB LED with integrated controller</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Espressif" part="ESP32-S3-WROOM-1">
+      <description>2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S3-WROOM-1</field>
+        <field name="Footprint">PCM_Espressif:ESP32-S3-WROOM-1</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</field>
+        <field name="Description">2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="GPIO4/TOUCH4/ADC1_CH3" type="bidirectional"/>
+        <pin num="5" name="GPIO5/TOUCH5/ADC1_CH4" type="bidirectional"/>
+        <pin num="6" name="GPIO6/TOUCH6/ADC1_CH5" type="bidirectional"/>
+        <pin num="7" name="GPIO7/TOUCH7/ADC1_CH6" type="bidirectional"/>
+        <pin num="8" name="GPIO15/U0RTS/ADC2_CH4/XTAL_32K_P" type="bidirectional"/>
+        <pin num="9" name="GPIO16/U0CTS/ADC2_CH5/XTAL_32K_N" type="bidirectional"/>
+        <pin num="10" name="GPIO17/U1TXD/ADC2_CH6" type="bidirectional"/>
+        <pin num="11" name="GPIO18/U1RXD/ADC2_CH7/CLK_OUT3" type="bidirectional"/>
+        <pin num="12" name="GPIO8/TOUCH8/ADC1_CH7/SUBSPICS1" type="bidirectional"/>
+        <pin num="13" name="GPIO19/U1RTS/ADC2_CH8/CLK_OUT2/USB_D-" type="bidirectional"/>
+        <pin num="14" name="GPIO20/U1CTS/ADC2_CH9/CLK_OUT1/USB_D+" type="bidirectional"/>
+        <pin num="15" name="GPIO3/TOUCH3/ADC1_CH2" type="bidirectional"/>
+        <pin num="16" name="GPIO46" type="bidirectional"/>
+        <pin num="17" name="GPIO9/TOUCH9/ADC1_CH8/FSPIHD/SUBSPIHD" type="bidirectional"/>
+        <pin num="18" name="GPIO10/TOUCH10/ADC1_CH9/FSPICS0/FSPIIO4/SUBSPICS0" type="bidirectional"/>
+        <pin num="19" name="GPIO11/TOUCH11/ADC2_CH0/FSPID/FSPIIO5/SUBSPID" type="bidirectional"/>
+        <pin num="20" name="GPIO12/TOUCH12/ADC2_CH1/FSPICLK/FSPIIO6/SUBSPICLK" type="bidirectional"/>
+        <pin num="21" name="GPIO13/TOUCH13/ADC2_CH2/FSPIQ/FSPIIO7/SUBSPIQ" type="bidirectional"/>
+        <pin num="22" name="GPIO14/TOUCH14/ADC2_CH3/FSPIWP/FSPIDQS/SUBSPIWP" type="bidirectional"/>
+        <pin num="23" name="GPIO21" type="bidirectional"/>
+        <pin num="24" name="GPIO47/SPICLK_P/SUBSPICLK_P_DIFF" type="bidirectional"/>
+        <pin num="25" name="GPIO48/SPICLK_N/SUBSPICLK_N_DIFF" type="bidirectional"/>
+        <pin num="26" name="GPIO45" type="bidirectional"/>
+        <pin num="27" name="GPIO0/BOOT" type="bidirectional"/>
+        <pin num="28" name="SPIIO6/GPIO35/FSPID/SUBSPID" type="bidirectional"/>
+        <pin num="29" name="SPIIO7/GPIO36/FSPICLK/SUBSPICLK" type="bidirectional"/>
+        <pin num="30" name="SPIDQS/GPIO37/FSPIQ/SUBSPIQ" type="bidirectional"/>
+        <pin num="31" name="GPIO38/FSPIWP/SUBSPIWP" type="bidirectional"/>
+        <pin num="32" name="MTCK/GPIO39/CLK_OUT3/SUBSPICS1" type="bidirectional"/>
+        <pin num="33" name="MTDO/GPIO40/CLK_OUT2" type="bidirectional"/>
+        <pin num="34" name="MTDI/GPIO41/CLK_OUT1" type="bidirectional"/>
+        <pin num="35" name="MTMS/GPIO42" type="bidirectional"/>
+        <pin num="36" name="U0RXD/GPIO44/CLK_OUT2" type="bidirectional"/>
+        <pin num="37" name="U0TXD/GPIO43/CLK_OUT1" type="bidirectional"/>
+        <pin num="38" name="GPIO2/TOUCH2/ADC1_CH1" type="bidirectional"/>
+        <pin num="39" name="GPIO1/TOUCH1/ADC1_CH0" type="bidirectional"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description">Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV1117-33">
+      <description>800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV1117-33</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv1117.pdf</field>
+        <field name="Description">800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_MEC_5E">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <docs>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</docs>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_MEC_5E</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</field>
+        <field name="Description">MEC 5E single pole normally-open tactile switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Switch, single pole double throw</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="badgelife_shitty_addon_v169bis" part="Badgelife_sao_connector_v169bis">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Badgelife_sao_connector_v169bis</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="SDA" type="input"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="GPIO1" type="input"/>
+        <pin num="6" name="GPIO2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/LED.kicad_sym</uri>
+    </library>
+    <library logical="PCM_Espressif">
+      <uri>C:\Users\Jason\Documents\KiCad\8.0\3rdparty/symbols/com_github_espressif_kicad-libraries/Espressif.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U4" pin="2" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="POWER1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="/BOOT">
+      <node ref="BOOT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="27" pinfunction="GPIO0/BOOT" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/D+">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="I/O1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="I/O1" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="GPIO20/U1CTS/ADC2_CH9/CLK_OUT1/USB_D+" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/D-">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="I/O2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="I/O2" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="GPIO19/U1RTS/ADC2_CH8/CLK_OUT2/USB_D-" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/RESET">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="RESET1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="BOOT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="DOWN1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="DOWN1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="LEFT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="LEFT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="POWER2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="RESET1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RIGHT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RIGHT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SELECT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SELECT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="40" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="41" pinfunction="GND" pintype="passive"/>
+      <node ref="UP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="UP1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="GPIO1">
+      <node ref="RN1" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="U4" pin="39" pinfunction="GPIO1/TOUCH1/ADC1_CH0" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="GPIO2">
+      <node ref="RN1" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="U4" pin="38" pinfunction="GPIO2/TOUCH2/ADC1_CH1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="GPIO3">
+      <node ref="RN1" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="GPIO3/TOUCH3/ADC1_CH2" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="GPIO4">
+      <node ref="RN1" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="GPIO4/TOUCH4/ADC1_CH3" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="GPIO5">
+      <node ref="RN2" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="GPIO5/TOUCH5/ADC1_CH4" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="GPIO6">
+      <node ref="U4" pin="6" pinfunction="GPIO6/TOUCH6/ADC1_CH5" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="GPIO7">
+      <node ref="U4" pin="7" pinfunction="GPIO7/TOUCH7/ADC1_CH6" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="GPIO8">
+      <node ref="U4" pin="12" pinfunction="GPIO8/TOUCH8/ADC1_CH7/SUBSPICS1" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="GPIO9">
+      <node ref="U4" pin="17" pinfunction="GPIO9/TOUCH9/ADC1_CH8/FSPIHD/SUBSPIHD" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="GPIO10">
+      <node ref="RN2" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="GPIO10/TOUCH10/ADC1_CH9/FSPICS0/FSPIIO4/SUBSPICS0" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="GPIO11">
+      <node ref="RN2" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="U4" pin="19" pinfunction="GPIO11/TOUCH11/ADC2_CH0/FSPID/FSPIIO5/SUBSPID" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="GPIO12">
+      <node ref="RN2" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="GPIO12/TOUCH12/ADC2_CH1/FSPICLK/FSPIIO6/SUBSPICLK" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="GPIO18">
+      <node ref="SELECT1" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="SELECT1" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="GPIO18/U1RXD/ADC2_CH7/CLK_OUT3" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="GPIO38">
+      <node ref="RIGHT1" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="RIGHT1" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="31" pinfunction="GPIO38/FSPIWP/SUBSPIWP" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="GPIO45">
+      <node ref="U4" pin="26" pinfunction="GPIO45" pintype="bidirectional"/>
+      <node ref="UP1" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="UP1" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="23" name="GPIO46">
+      <node ref="DOWN1" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="DOWN1" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="GPIO46" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="GPIO47">
+      <node ref="LEFT1" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="LEFT1" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="24" pinfunction="GPIO47/SPICLK_P/SUBSPICLK_P_DIFF" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="GPIO48">
+      <node ref="D9" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="U4" pin="25" pinfunction="GPIO48/SPICLK_N/SUBSPICLK_N_DIFF" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(CHARGING1-A)">
+      <node ref="CHARGING1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(CHARGING1-K)">
+      <node ref="CHARGING1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="~{CHRG}" pintype="open_collector"/>
+    </net>
+    <net code="29" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RN1" pin="1" pinfunction="R1.1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RN1" pin="2" pinfunction="R2.1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RN1" pin="3" pinfunction="R3.1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RN1" pin="4" pinfunction="R4.1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RN2" pin="1" pinfunction="R1.1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RN2" pin="2" pinfunction="R2.1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RN2" pin="3" pinfunction="R3.1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RN2" pin="4" pinfunction="R4.1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J1-CC1)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J1-CC2)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(POWER1-A)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="POWER1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="BAT" pintype="power_out"/>
+    </net>
+    <net code="40" name="Net-(POWER2-A)">
+      <node ref="POWER2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(U2-PROG)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="PROG" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="VBUS">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="V_{CC}" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(D9-DOUT-Pad2)">
+      <node ref="D9" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J1-SHIELD-PadS1)">
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(POWER1-C-Pad3)">
+      <node ref="POWER1" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U4-GPIO13{slash}TOUCH13{slash}ADC2_CH2{slash}FSPIQ{slash}FSPIIO7{slash}SUBSPIQ-Pad21)">
+      <node ref="U4" pin="21" pinfunction="GPIO13/TOUCH13/ADC2_CH2/FSPIQ/FSPIIO7/SUBSPIQ" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U4-GPIO14{slash}TOUCH14{slash}ADC2_CH3{slash}FSPIWP{slash}FSPIDQS{slash}SUBSPIWP-Pad22)">
+      <node ref="U4" pin="22" pinfunction="GPIO14/TOUCH14/ADC2_CH3/FSPIWP/FSPIDQS/SUBSPIWP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U4-GPIO15{slash}U0RTS{slash}ADC2_CH4{slash}XTAL_32K_P-Pad8)">
+      <node ref="U4" pin="8" pinfunction="GPIO15/U0RTS/ADC2_CH4/XTAL_32K_P" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U4-GPIO16{slash}U0CTS{slash}ADC2_CH5{slash}XTAL_32K_N-Pad9)">
+      <node ref="U4" pin="9" pinfunction="GPIO16/U0CTS/ADC2_CH5/XTAL_32K_N" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U4-GPIO17{slash}U1TXD{slash}ADC2_CH6-Pad10)">
+      <node ref="U4" pin="10" pinfunction="GPIO17/U1TXD/ADC2_CH6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U4-GPIO21-Pad23)">
+      <node ref="U4" pin="23" pinfunction="GPIO21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U4-MTCK{slash}GPIO39{slash}CLK_OUT3{slash}SUBSPICS1-Pad32)">
+      <node ref="U4" pin="32" pinfunction="MTCK/GPIO39/CLK_OUT3/SUBSPICS1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U4-MTDI{slash}GPIO41{slash}CLK_OUT1-Pad34)">
+      <node ref="U4" pin="34" pinfunction="MTDI/GPIO41/CLK_OUT1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U4-MTDO{slash}GPIO40{slash}CLK_OUT2-Pad33)">
+      <node ref="U4" pin="33" pinfunction="MTDO/GPIO40/CLK_OUT2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U4-MTMS{slash}GPIO42-Pad35)">
+      <node ref="U4" pin="35" pinfunction="MTMS/GPIO42" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U4-SPIDQS{slash}GPIO37{slash}FSPIQ{slash}SUBSPIQ-Pad30)">
+      <node ref="U4" pin="30" pinfunction="SPIDQS/GPIO37/FSPIQ/SUBSPIQ" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U4-SPIIO6{slash}GPIO35{slash}FSPID{slash}SUBSPID-Pad28)">
+      <node ref="U4" pin="28" pinfunction="SPIIO6/GPIO35/FSPID/SUBSPID" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U4-SPIIO7{slash}GPIO36{slash}FSPICLK{slash}SUBSPICLK-Pad29)">
+      <node ref="U4" pin="29" pinfunction="SPIIO7/GPIO36/FSPICLK/SUBSPICLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U4-U0RXD{slash}GPIO44{slash}CLK_OUT2-Pad36)">
+      <node ref="U4" pin="36" pinfunction="U0RXD/GPIO44/CLK_OUT2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U4-U0TXD{slash}GPIO43{slash}CLK_OUT1-Pad37)">
+      <node ref="U4" pin="37" pinfunction="U0TXD/GPIO43/CLK_OUT1" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
