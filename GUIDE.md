@@ -54,14 +54,33 @@ From here you can head down to Pittsburg by heading to the southeast corner of t
 
 ## Pittsburg
 
+The city network is experiencing some issues, and the Town Hall needs to get some information to the court house. Stop by Town Hall and pick up a letter, deliver it to the Court House for a flag. 
+
+While you're heading into town, stop by the local flower shop and coffee shop to pick up a flower and coffee that needs to be delivered. 
+
+The coffee was ordered by someone waiting in the court house, go deliver that for a flag. While you're there, deliver the letter from the Town Hall for another flag. 
+
+Make note of the network closet in the back of the court house, you can pick up a flash drive from the local park and try plugging it in! Probably not a great idea, but hey it gets you a flag!
+
+To complete this area you will need to visit the local university and help them get their computer lab back online. 
+
+Grab a ladder from one of the classrooms and hop over the wall through the ceiling tiles to get into the computer lab.
+
+Once you're in the computer lab, shutdown and unplug the random computer there. 
+
+To finish this up, go back to the town hall and ask the receptionist to try it again, as their network should be back online now for the final flag. 
 
 ## Ellsworth
+
+
 
 ## Goodland
 
 ## Dodge City
 
 ## Newton
+
+
 
 ## Wichita
 
