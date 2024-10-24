@@ -4,6 +4,21 @@ This guide walks you through collecting all of the CTF flags within the game.
 
 ## Connecting to the Game
 
+In order to play the text based adventure on your OzSec 2024 badge, you will need to connect to the serial console of the badge via USB.
+
+- Power on the badge if needed by flipping the power switch on the bottom of the badge, by the USB port, away from the usb port.
+> Note that it must be a data USB-C cable, not a power only cable. If you don't see a COM port for your badge, and installing drivers doesn't help, try a different cable.
+
+Visit [Serial Terminal by Spacehuhn](https://serial.huhn.me/) in Chrome, Edge, or Opera from a desktop PC.
+
+Click the green Connect button.
+
+In the browser popup, select the USB Serial (COM#) and then click Connect
+
+The serial terminal will load, and you will see the serial output from your badge.
+
+If needed, reset your badge by pressing the RESET button on the top right hand side of your badge.
+
 ## The Training Area
 
 The training area is intended to get you familiar with the commands and options avialable to you within the game. 
@@ -72,7 +87,17 @@ To finish this up, go back to the town hall and ask the receptionist to try it a
 
 ## Ellsworth
 
+The water supply in Ellsworth is having some issues with quality. Stop by the water plant on the east side of town and see if you can help them fix their issues. 
 
+You will need to get permission to access the water plant, so before you head there stop by the water company offices on the main street of town and grab an access card. 
+
+While you're out exploring the city, find and stop by the post office to pick up a package and a flag. 
+
+After you have the keycard, visit the water plant and check in with security. They will let you in where you can test the quality of the water and restore the chemical levels to normal levels. 
+
+But first you need to find out why your changes keep getting reverted. If you check the network closet there is an unknown PC there. Unplug it and you can now restore water levels, check the quality, and report your findings to the operator. This will complete the town and light your badge, and give you a flag.
+
+Before you head out of down, grab a soda from one of the shops and give it to the groundskeeper in the park for a flag.
 
 ## Goodland
 
@@ -88,9 +113,31 @@ From here you can head down to Dodge City, or to Ellsworth.
 
 ## Dodge City
 
+As you enter Dodge City, there's a Flipper Zero laying on the ground, make sure and pick that up as it's needed. You'll be freeing 'The Associate' and you need to clone some keycards to do that. 
+
+After you are armed with a Fllipper, visit the local saloon and clone the sherrif's keycard while he's busy. While you're in there stop by the bar and pick up a drink, or head over to the local gas station and pick up an energy drink.
+
+On your way to the sherrif's office enter the game room of the saloon and offer the player a drink for a flag. When you get to the sherrifs office head into the jail and replay the sherrifs keycard to free the associate. 
+
+Next head down to the train station and clone the keycard of the train operator on your way, this will allow you to unlock the train car for another flag. 
+
+As you exit town via the train, your final flag will be revealed and this city will light up o your badge.
+
+
+
 ## Newton
 
+The college in Newton has suffered a cyber incident that took their systems down. Thankfully they have proper disaster recovery documentation and recovery instrucitons. 
 
+Unfortunately, they seem to have misplaced the documents. Can you help collect the 4 pages of the DR document and help their IT guy get systems back online? 
+
+Search through the college campus to find the recovery documents. You will find a USB drive in the parking lot on your way there, pick it up for a flag when you insert it into their server. Maybe don't do that in real life.. but this is just a game, right?
+
+While you're searching for the recovery documents, grab some lunch for the poor IT guy, he's working really hard. 
+
+Return lunch and the recovery documents to the IT guy in the campus and be rewarded with the flag and this city is completed. 
+
+Next, head over to Wichita to complete the final quests!
 
 ## Wichita
 
