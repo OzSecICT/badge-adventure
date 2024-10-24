@@ -76,6 +76,16 @@ To finish this up, go back to the town hall and ask the receptionist to try it a
 
 ## Goodland
 
+Goodland has been overrun by robot taxis! Sadly, they have begun breaking down and causing all sorts of issues for the locals. 
+
+You can help fix them by visiting a local auto shop and picking up a key to the taxi, then going to the telecom provider in town and picking up a usb key to re-flash the taxi firmware. 
+
+There are five taxi's stuck around the city, the first one you should have seen when you first netered town. Another one is further to the west from the auto shop, and the rewst are up north near the airport and faire. 
+
+While you're helping the taxi's, pick up a plane ticket for a flag at the airport, and visit the fair for a turkey leg with another flag on it. 
+
+From here you can head down to Dodge City, or to Ellsworth. 
+
 ## Dodge City
 
 ## Newton
@@ -84,3 +94,16 @@ To finish this up, go back to the town hall and ask the receptionist to try it a
 
 ## Wichita
 
+Once you've completed all the other towns and on your badge their lights are lit, you can enter Wichita. 
+
+Wichita has two main quests, the water company and the airport. If you visit the water company in the northern side of town you be tasked with visiting a local bank branch to pick up a backup tape so they can restore from backups.
+
+Return to the IT manager and let him you know you have the tape and he will give you a key to the datacenter. Go across the hall to the datacenter and load the tapes. Return to the manager to let him know for your first flag. 
+
+The aiport has suffered from a vendor's incident that has taken their computers offline. You will need to visit the IT guy in the food court, and pick up a flash drive that will auto-reboot and fix the PC's. 
+
+Once you have the drive, go around the airport rebooting each of the five PC's. You will need to pick up some keys from the janitors closet on the east side of the airport, and unlock the closet on the west side to get the final PC. Don't forget to check the TSA line for one of the PC's that needs rebooted. 
+
+After completing both the water company and airport quests you will complete the main quests of Wichita, and the RGB LED on your badge should turn green, congratulations!
+
+You can pick up a phamplhet from the bank's loan office and give it to a farmer inthe farmers market for a flag. 
